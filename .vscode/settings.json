@@ -5,6 +5,7 @@
   "files.trimFinalNewlines": true,
   "files.exclude": {
     "**/lib": true,
+    "**/dist": true,
     "**/node_modules": true
   },
 }

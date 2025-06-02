@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "main": "lib/peer.js",
   "scripts": {
-    "build": "tsc 1>&2"
+    "build": "tsc 1>&2",
+    "bundle": "esbuild lib/peer.js --bundle --platform=node --outfile=dist/peer.js"
   },
   "devDependencies": {
     "@types/node": "^20.17.57",
     "@types/yargs": "^17.0.33",
+    "esbuild": "^0.25.5",
     "typescript": "^5.8.3"
   },
   "dependencies": {
