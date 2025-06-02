@@ -2,4 +2,10 @@
 
 Utility CLI tool to find and list `peerDependencies` of NPM packages.
 
-`node peer.js <package-name>`
+## Build
+1. `pnpm install`
+1. `pnpm build`
+1. `pnpm bundle`
+
+## Usage
+`node ./dist/peer.mjs --help`
