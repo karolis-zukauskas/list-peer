@@ -1,0 +1,16 @@
+{
+  "name": "list-peer",
+  "version": "1.0.0",
+  "main": "lib/peer.js",
+  "scripts": {
+    "build": "tsc 1>&2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.57",
+    "@types/yargs": "^17.0.33",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "yargs": "^18.0.0"
+  }
+}
