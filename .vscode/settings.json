@@ -4,8 +4,8 @@
   "files.trimTrailingWhitespace": true,
   "files.trimFinalNewlines": true,
   "files.exclude": {
-    "**/lib": true,
-    "**/dist": true,
+    "**/lib": false,
+    "**/dist": false,
     "**/node_modules": true
   },
 }

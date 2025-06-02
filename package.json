@@ -4,7 +4,7 @@
   "main": "lib/peer.js",
   "scripts": {
     "build": "tsc 1>&2",
-    "bundle": "esbuild lib/peer.js --bundle --platform=node --outfile=dist/peer.js"
+    "bundle": "esbuild lib/peer.js --bundle --format=esm --platform=node --outfile=dist/peer.mjs"
   },
   "devDependencies": {
     "@types/node": "^20.17.57",
